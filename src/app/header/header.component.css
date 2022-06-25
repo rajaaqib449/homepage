@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+}
+.navbar-nav li{
+    margin-left: 30px;
+
+    font-family: oswald,sans-serif;
+    font-size: 1em;
+    line-height: 1.2857em;
+    font-weight: 400;
+
+
+}
+.NavBar{
+    z-index: 100;
+  height: 94px;
+
+}
+.navbar{
+    z-index: 1;
+}
+.navbar-nav a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+  color: black;
+  font-weight: 600;
+}
+.navbar-nav{
+
+    margin-right: 124px;
+  width: 100%;
+display: flex;
+
+}
+.zero{
+    margin-left: -11px;
+    margin-top: 0px;
+
+    text-align: center;
+    color: black;
+    position: fixed;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 19px;
+    height: 21px;
+    background: white;
+}
+.nav-item  a{
+    font-size: 1em;
+    line-height: 2.5;
+    color: #fff;
+    font-weight: 600;
+}
+.shop{
+    position: absolute;
+    font-size: 1em;
+    line-height: 2.5;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 12px;
+}
+@media screen and (max-width: 974px) {
+  .LI{
+    width: 100%;
+  display: block !important;
+  /* justify-content: space-between; */
+  }
+}
+
+
+.Title{
+  display: inline-block;
+  color: white;
+
+}
+.Logo img{
+  object-fit: cover;
+}
+.Button{
+  display: inline;
+margin-right: 10px;
+border-radius: 1px;
+
+}
+.LI{
+    float: right;
+display: flex;
+padding: 0px;
+
+
+}
+.navbar-brand{
+    color: rgb(255, 255, 255);
+    margin-left: 76px;
+
+}
+.navbar-brand:hover{
+    color: rgb(255, 255, 255);
+}
+.btn:hover{
+transition: 0.3s;
+  border-bottom: 1px solid;
+ 
+ 
+}
+
+.container-fluid{
+    width: 100%;
+    height: 0%;
+    background-color: black;
+
+}
+
+.main{
+    position: relative;
+    z-index: 1;
+}
+.navbar ul li a {
+    color: white;
+    }
+    .navbar-nav ul li a:hover {
+
+        color: #eee;
+        }
+
+    .navbar {
+        position: relative;
+        top: 70%;
+        z-index: 1;
+    }
+    .background1{
+        position: relative;
+    }
+    .Icon{
+       color: white;
+       margin-top: 6px;
+       margin-left: 55px;
+    }
+    .background{
+        background-image: url(/assets/man-800x720.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        clip-path: polygon(31% 0,100% 25%,61% 100%,0 93%);
+        top: 0.5vh;
+        left: 4.5vw;
+    width: 56vw;
+    height: 80vh;
+    position: absolute;
+    display: inline-block;
+    z-index: 2;
+    }
+    .v1 {
+        border-left: 6px solid white;
+        height: 626px;
+      }
+      .dropdown-menu{
+        margin-left: 10px;
+        background-color: rgb(73, 71, 71);
+    
+      }
+      .dropdown-item:hover{
+        background-color: rgb(47, 47, 47);
+        color: rgba(0, 0, 0, 0);
+      }
+      .dropdown-item{
+        margin-left: -29px;
+        margin: auto;
+        color: rgb(66, 64, 64);
+      }
+      .dropdown-menu{
+        top: 100%;
+        left: 0;
+        margin-top: 0.125rem;
+        width: 168px;
+    margin-left: -38px;
+        background-color: rgb(73, 71, 71);
+      }
+      .dropdown-menu li a{
+        margin-left: -23px;
+        font-size: 1em;
+    line-height: 2.5;
+    color: #fff;
+    font-weight: 600;
+      }
+      .dropdown:hover  .dropdown-menu{
+        display: block;
+       }
+.icons{
+    top: -27px;
+    position: relative;
+    float: right;
+    z-index: 1;
+    left: -2%;
+}
+       @media  (max-width: 720px){
+        .background{
+            position: absolute;
+            top: 0;
+            left: 6px;
+            width: 91vw;
+            height: 62vh;
+        
+            clip-path: polygon(25% 0,100% 25%,80% 100%,0 85%);
+      
+        }
+      }
+      @media screen and (orientation:landscape) and (min-device-width:319px) and (max-device-width:1199px){
+        .background{
+            position: absolute;
+            left: -30px;
+            right: -30px;
+            top: 0;
+            width: auto;
+            height: 100%;
+       
+            clip-path: none;
+        }
+      }
