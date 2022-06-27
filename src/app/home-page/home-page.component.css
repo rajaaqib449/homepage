@@ -70,7 +70,12 @@ display: flex;
   }
 }
 
-
+.heading{
+    bottom: 61px;
+    display: inline-block;
+    position: relative;
+    color: white;
+}
 .Title{
   display: inline-block;
   color: white;
@@ -163,19 +168,19 @@ transition: 0.3s;
         position: absolute;
           border-left: 1px solid #4e4949;
         height: 635px;
-        left: 30%;
+        left: 39%;
       }
       .v3 {
         position: absolute;
           border-left: 1px solid #4e4949;
         height: 635px;
-        left: 25%;
+        left: 59%;
       }
       .v4 {
         position: absolute;
           border-left: 1px solid #4e4949;
         height: 635px;
-        left: 50%;
+        left: 80%;
       }
       .dropdown-menu{
         margin-left: 10px;
@@ -190,6 +195,9 @@ transition: 0.3s;
         margin-left: -29px;
         margin: auto;
         color: rgb(66, 64, 64);
+      }
+      .verticalLine{
+        gap: 40px;
       }
       .dropdown-menu{
         top: 100%;

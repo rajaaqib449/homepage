@@ -53,7 +53,14 @@ display: flex;
     line-height: 2.5;
     color: #fff;
     font-weight: 600;
+  
 }
+.nav-item a:hover{
+    animation: rotate 3s infinite;
+}
+@keyframes rotate {
+    50% {transform: rotate(360deg);}
+  }
 .shop{
     position: absolute;
     font-size: 1em;
@@ -109,7 +116,7 @@ transition: 0.3s;
 
 .container-fluid{
     width: 100%;
-    height: 0%;
+    height: 1%;
     background-color: black;
 
 }

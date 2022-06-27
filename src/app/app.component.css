@@ -140,3 +140,10 @@ transition: 0.3s;
         clip-path: none;
     }
   }
+  #courser{
+   height: 50px;
+   width: 50px;
+   background: #e7c82f; 
+   border-radius: 50%;
+   position: absolute;
+  }
